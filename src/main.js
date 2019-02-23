@@ -1,4 +1,5 @@
-import { version } from '../package.json';
-export default function() {
-  console.log('version ' + version)
+import answer from 'the-answer';
+
+export default () => {
+  console.log(`the answer is ${answer}`);
 }

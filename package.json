@@ -17,6 +17,16 @@
   },
   "homepage": "https://github.com/yangtao2o/myrollup#readme",
   "devDependencies": {
-    "rollup-plugin-json": "^3.1.0"
+    "babel-core": "^6.26.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^4.0.1"
+  },
+  "dependencies": {
+    "the-answer": "^1.0.0"
   }
 }
